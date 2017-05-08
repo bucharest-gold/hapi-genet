@@ -1,0 +1,31 @@
+{
+  "name": "hapi-genet",
+  "version": "0.0.1",
+  "description": "A Hapi plugin to use genet.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bucharest-gold/hapi-genet.git"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "dependencies": {
+    "genet": "0.0.7"
+  },
+  "devDependencies": {
+    "hapi": "^16.1.1",
+    "tape": "^4.6.0"
+  },
+  "keywords": [
+    "hapi",
+    "genet",
+    "plugin"
+  ],
+  "author": "Helio Frota",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bucharest-gold/hapi-genet/issues"
+  },
+  "homepage": "https://github.com/bucharest-gold/hapi-genet"
+}
